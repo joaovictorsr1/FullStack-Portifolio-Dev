@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-2xl {
+  font: var(--title-lg);
+  color: var(--bs-gray-600);
+}
+
+.text-xl {
+  font: var(--title-md);
+}
+
+.text-lg {
+  font: var(--title-sm);
+}
+
+.text-sub {
+  font: var(--subtitle);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
