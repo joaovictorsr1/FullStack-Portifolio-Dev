@@ -20,7 +20,6 @@
 
 .text-2xl {
   font: var(--title-lg);
-  color: var(--bs-gray-600);
 }
 
 .text-xl {
@@ -37,4 +36,12 @@
 
 .text-sm {
   font: var(--text-sm);
+}
+
+.color-sub {
+  color: var(--main-color-red);
+}
+
+.color-title {
+  color: var(--bs-gray-600);
 }

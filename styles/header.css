@@ -22,10 +22,6 @@
   div:nth-child(2) {
     margin-block: 56px 80px;
 
-    p > span {
-      color: var(--main-color-red);
-    }
-
     h1 {
       margin-block: 8px 20px;
     }

@@ -34,14 +34,10 @@
 body {
   font: var(--text-md);
   color: var(--bs-gray-500);
-  background-color: var(--bs-gray-300);
+  background-color: var(--bs-gray-200);
 }
 
 header {
-  background-image: url(/assets/templates/Background_Intro.png);
-  background-position: bottom;
-  background-size: contain;
-
   grid-template-columns: 760px;
   justify-content: center;
   justify-items: center;
@@ -52,6 +48,12 @@ header {
   padding-top: 120px;
   padding-inline: 163px;
   margin-inline: auto;
+}
+
+.template {
+  background-image: url(/assets/templates/Background_Intro.png);
+  background-position: bottom;
+  background-size: contain;
 }
 
 h1, h2, h3 {
