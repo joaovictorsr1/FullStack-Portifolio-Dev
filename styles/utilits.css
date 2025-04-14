@@ -2,6 +2,18 @@
   display: grid;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
 .flex {
   display: flex;
 }

@@ -41,13 +41,16 @@ header {
   background-image: url(/assets/templates/Background_Intro.png);
   background-position: bottom;
   background-size: contain;
-  height: 750px;
+
+  grid-template-columns: 760px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .container {
   max-width: 1320px;
+  padding-top: 120px;
   padding-inline: 163px;
-  padding-block: 120px 180px;
   margin-inline: auto;
 }
 
