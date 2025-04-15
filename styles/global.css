@@ -45,7 +45,7 @@ header {
 
 .container {
   max-width: 1320px;
-  padding-top: 120px;
+  padding-block: 120px 57px;
   padding-inline: 163px;
   margin-inline: auto;
 }
@@ -54,6 +54,10 @@ header {
   background-image: url(/assets/templates/Background_Intro.png);
   background-position: bottom;
   background-size: contain;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1, h2, h3 {
