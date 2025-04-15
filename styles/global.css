@@ -46,8 +46,15 @@ header {
 .container {
   max-width: 1320px;
   padding-block: 120px 57px;
-  padding-inline: 163px;
   margin-inline: auto;
+}
+
+.container-inline {
+  padding-inline: 163px;
+}
+
+.container-block {
+  padding-block: 88px 120px;
 }
 
 .template {

@@ -14,6 +14,10 @@
   gap: 24px;
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -24,6 +28,10 @@
 
 .flex {
   display: flex;
+}
+
+.flex-align {
+  justify-content: center;
 }
 
 .text-2xl {
