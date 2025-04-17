@@ -1,10 +1,15 @@
 
 #contact {
   header {
+    
     margin-bottom: 56px;
 
     span {
       color: var(--main-color-purple);
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 
@@ -29,8 +34,11 @@
         }
 
       }
+
+      li:hover {
+        outline: 2px solid var(--bs-gray-400) ;
+      }
     }
   }
-
 
 }
