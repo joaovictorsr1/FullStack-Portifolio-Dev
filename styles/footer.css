@@ -1,0 +1,36 @@
+
+#contact {
+  header {
+    margin-bottom: 56px;
+
+    span {
+      color: var(--main-color-purple);
+    }
+  }
+
+  nav {
+    ul {
+      list-style: none;
+
+      li {
+        background-color: var( --bs-gray-300);
+        border-radius: 10px;
+        width: 400px;
+        padding: 20px;
+
+        a {
+          grid-template-columns: 30px 300px 30px;
+          gap: 8px;
+          align-items: center;
+          text-decoration: none;
+
+          font-family: var(--font-family);
+          color: var(--bs-gray-500);
+        }
+
+      }
+    }
+  }
+
+
+}

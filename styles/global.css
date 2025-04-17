@@ -63,6 +63,20 @@ header {
   background-size: contain;
 }
 
+.template-contats {
+  background-image: url(/assets/templates/Background_Contacts.png);
+  background-position: top;
+  background-size: cover;
+}
+
+.btn-span {
+  display: inline-block;
+  background-image: url(/assets/icons/ArrowUpRight.svg);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
 img {
   max-width: 100%;
 }

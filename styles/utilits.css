@@ -30,8 +30,16 @@
   display: flex;
 }
 
-.flex-align {
+.flex-justify {
   justify-content: center;
+}
+
+.flex-align {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .text-2xl {
